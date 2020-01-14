@@ -3,10 +3,16 @@
   <Import Project="..\common.props" />
   <PropertyGroup>
     <AssemblyTitle>Akka.Persistence.PostgreSql</AssemblyTitle>
-    <Description>Akka Persistence journal and snapshot store backed by PostgreSql database.</Description>
+    <Description>Akka Persistence journal and snapshot store backed by PostgreSql database. Forked for WhereIsMyTransport</Description>
     <TargetFrameworks>net45;netstandard1.6</TargetFrameworks>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NetStandardImplicitPackageVersion Condition=" '$(TargetFramework)' == 'netstandard1.6' ">1.6.1</NetStandardImplicitPackageVersion>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <Authors>Akka.NET Team, WhereIsMyTransport</Authors>
+    <Company>Akka.NET Team, WhereIsMyTransport</Company>
+    <PackageId>WhereIsMyTransport.Akka.Persistence.PostgreSql</PackageId>
+    <Product>WhereIsMyTransport.Akka.Persistence.PostgreSql</Product>
   </PropertyGroup>
 
   <ItemGroup>
